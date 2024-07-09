@@ -1,0 +1,49 @@
+
+body {
+    margin: 0;
+    font-family:Arial, Helvetica, sans-serif;
+    background-image: url(images.jpeg);
+    background-size: cover;
+
+}
+form {
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 400px;
+   height: 550px; 
+   text-align: center;  
+   margin: 100px auto;
+   padding: 30px;
+   background-color: transparent;
+   position: relative;
+}
+h1 {
+    color: blue;
+    font-style: italic;
+
+}
+label{
+    color: white;
+}
+
+.gender{
+    display: flex;
+    justify-content: space-between;
+    width: 250px;
+    text-align: center;
+    margin-left: 90px;
+}
+input {
+    border-radius: 5px;
+    height: 20px;
+}
+button {
+    border-radius: 5px;
+    width: 150px;
+    cursor: pointer;
+    background: linear-gradient(-135deg, #71b7e6 , #9b59b9);
+    height: 30px;
+    color: white;
+    font-weight: bold;
+}
+

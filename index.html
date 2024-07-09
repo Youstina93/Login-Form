@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Form</title>
+ <link rel="stylesheet" href="../Assign1_LoginForm/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+ 
+</head>
+<body>
+    <form action="https://www.ChatGpt.com" method="get" target="_blank">
+        <h1>Registration Form</h1>
+   <label for="user">UserName:</label> <br>
+   <input type="text" name="userName" id="user" placeholder="enter your name" autofocus required > <br><br>
+
+   <label for="mail">Email Address:</label><br>
+   <input type="email" name="mail" id="mail" placeholder="enter your mail" required><br><br>
+
+   <label for="birth">Date Of Birth</label><br>
+   <input type="date" name="date" id="birth" required><br><br>
+   
+   <div class="gender">
+    <label >Gender:</label><br>
+    <label for="male">Male</label>
+    <input type="radio" name="gender" id="male"><br>
+    <label for="female">Female</label>
+    <input type="radio" name="gender" id="female"><br><br>
+   </div>
+
+   <label for="password">Password:</label><br>
+   <input type="password" name="password" id="password" placeholder="enter your password" required><br>
+   <br>
+
+   <label for="repass">Repeat Password:</label><br>
+   <input type="password" name="repeatPassword" id="repass" placeholder="confirm password" required>
+   <p id="error" style="color: rgb(48, 16, 226);"></p><br><br>
+
+   <button type="submit" class="submit"> Log in</button>
+  
+    </form>
+    <script src="main.js"></script>
+</body>
+</html>
